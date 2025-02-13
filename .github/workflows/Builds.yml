@@ -1,0 +1,8 @@
+name: Builds
+on: workflow_dispatch
+jobs:
+  windows:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Print Greetings
+         run: echo "Oh, Hi!"
